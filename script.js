@@ -8,9 +8,6 @@
                 alert("Please enter valid details.");
                 return;
             }
-            
-            age = parseInt(age, 10);
-            
             new Promise((resolve, reject) => {
                 setTimeout(() => {
                     if (age > 18) {
